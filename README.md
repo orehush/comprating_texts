@@ -1,17 +1,17 @@
-This is a program for compare the similarity of texts.
+## This is a program for compare the similarity of texts.
 
-Enviroment: 
+### Enviroment: 
 	- Linux Debian / Ubuntu
 
-Requirements: 
+### Requirements: 
 	- g++ compiler
 
-How to run it:
+### How to run it:
 
 $ g++ project.cpp -o project
 $ ./project
 
-Description algorithm of the program:
+### Description algorithm of the program:
 	- the algorithm finds all files under the specified constant FILES_PATTERN
 	- opens files to read
 	- if the file is valid (opened and not empty), it writes the contents of the file to the variable which adds to vector
@@ -22,7 +22,7 @@ Description algorithm of the program:
 		* finds the same elements of two rows
 		* adds to a general percent the minimum of two values repetitions of two sequences
 
-Description of the structure of the program:
+### Description of the structure of the program:
 	- FILES_PATTERN - constant which specifies the pattern to search files ( = "./*.txt")
 	- HUNDRED - hundred percent ( = 100)
 	- SPACE - space for search in text ( = ' ')
@@ -36,7 +36,7 @@ Description of the structure of the program:
 		* method double count_percent_comparing() - search similar items in maps and calculation of percent similarity maps
 
 
-Example start:
+### Example start:
 
 $ ./project 
 Reading file: ./example_1.txt
@@ -74,5 +74,4 @@ Percent of comparing text 2 with text 3 : 0.605536
 Percent of comparing text 2 with text 4 : 0.592336
 Percent of comparing text 3 with text 4 : 62.9527
 
-Link to the <a href="https://github.com/Sashkiv/comparing_texts">repository</a>: 
-	https://github.com/Sashkiv/comparing_texts
+### Link to the repository: https://github.com/Sashkiv/comparing_texts
