@@ -8,8 +8,8 @@
 
 ### How to run it:
 
-$ g++ project.cpp -o project
-$ ./project
+- $ g++ project.cpp -o project
+- $ ./project
 
 ### Description algorithm of the program:
 	- the algorithm finds all files under the specified constant FILES_PATTERN
@@ -37,7 +37,7 @@ $ ./project
 
 
 ### Example start:
-
+# ---
 $ ./project 
 Reading file: ./example_1.txt
 --> text of file: Nullam gravida mattis feugiat. In imperdiet malesuada ornare. Donec vitae laoreet diam. Praesent nec velit facilisis, viverra sem ac, finibus eros. Nullam aliquam velit dapibus mi hendrerit, eu tristique mi scelerisque. Curabitur in felis est. Ut ante risus, placerat eget nisl quis, posuere aliquet urna. Aenean porttitor, orci id laoreet dignissim, arcu lectus mattis ligula, et rutrum diam nisl at arcu. Integer suscipit volutpat tortor, ut imperdiet dui viverra quis. Fusce nec orci convallis, pulvinar nunc placerat, venenatis sapien. Nam non accumsan augue. Duis eu nunc ex. Proin lobortis lorem eget mi suscipit mattis.
