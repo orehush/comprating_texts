@@ -60,7 +60,7 @@ Reading file: ./example_5.txt
 
 ----------------------------------
 Reading file: ./example_empy.txt
-File ./example_empy.txt is empty
+File ./example_empty.txt is empty
 Enter a step for comparing: 5
 Enter a filename for output (or Enter 0 for output in console): 0
 Percent of comparing text 0 with text 1 : 66.3047
@@ -74,4 +74,4 @@ Percent of comparing text 2 with text 3 : 0.605536
 Percent of comparing text 2 with text 4 : 0.592336
 Percent of comparing text 3 with text 4 : 62.9527
 
-### Link to the repository: https://github.com/Sashkiv/comparing_texts
+### Link to the [repository] (https://github.com/Sashkiv/comparing_texts "Comparing texts")
